@@ -10,8 +10,12 @@ website: https://www.europeana.eu/en
 This website used HTML to build their content. In the very top of the inspection window, we can see <!DOCTYPE html>, where we know HTML is used. 
 The Europeana website makes extensive use of CSS for its styling as well. 
 So far, I haven't seen files that I don't recognize.
+
 ![Screenshot of the app](images/Screenshot 2024-09-18 at 12.26.31 AM.jpg)
+
+
 ![Screenshot of the app](images/Screenshot 2024-09-18 at 12.14.39 AM.png)
+
 
 
 ### Who built this website? How many people were involved? How can you tell?
