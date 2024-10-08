@@ -1,3 +1,4 @@
+import pandas as pd
 from rich.console import Console
 from rich.table import Table
 import csv
@@ -54,14 +55,9 @@ def confirm_data(song_title, artist_name, release_year, streams):
 
 # Function to save data to a file
 def save_data_to_file(data, filename="music_data.csv"):
-    desktop_path = os.path.join(os.path.expanduser("~"), "Desktop")
-    file_path = os.path.join(desktop_path, filename)
-    with open(file_path, mode="w", newline="") as file:
-        writer = csv.writer(file)
-        writer.writerow(["Song Title", "Artist", "Release Year", "Spotify Streams (in million)"])
-        for i in range(len(data)):
-            writer.writerow(data[i])
-    console.print(f"\n[bold green]Data has been saved to: {file_path}[/bold green]")
+    df = pd.DataFrame(data, columns=["Song Title", "Artist", "Release Year","Spotify Streams (in million)"])
+    df.to_csv(filename, index=False)
+    console.print(f'Data saved to {os.path.abspath(filename)}')
 
 
 # main function to run the script
@@ -74,7 +70,7 @@ def main():
 
         
         if confirm_data(song_title, artist_name, release_year, streams):
-            music_data.append([[song_title], [artist_name], [release_year], [streams]])
+            music_data.append([song_title, artist_name, release_year, streams])
             console.print("\n[bold green]Data confirmed and added.[/bold green]")
         else:
             console.print("\n[bold red]Please re-enter the data.[/bold red]")
