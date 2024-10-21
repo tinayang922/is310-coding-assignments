@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # request to the webpage and use BeautifulSoup to parse the HTML
-response = requests.get("https://www.gutenberg.org/browse/scores/top#books-last1")
+response = requests.get("https://www.gutenberg.org/browse/scores/top")
 soup = BeautifulSoup(response.text, 'html.parser')
 
 # Find the 'Top 100 EBooks yesterday' section
