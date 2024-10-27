@@ -1,0 +1,74 @@
+{
+  "Europeana Sports Data": [
+    {
+      "completeness": 0,
+      "country": [
+        "Germany"
+      ],
+      "dataProvider": [
+        "Museum of European Cultures, Staatliche Museen zu Berlin"
+      ],
+      "dcTitleLangAware": {
+        "de": [
+          "Darth Vader"
+        ]
+      },
+      "edmDatasetName": [
+        "2064108_SMB"
+      ],
+      "edmIsShownAt": [
+        "http://www.smb-digital.de/eMuseumPlus?service=ExternalInterface&module=collection&objectId=1399210"
+      ],
+      "edmIsShownBy": [
+        "http://www.smb-digital.de/eMuseumPlus?service=ImageAsset&module=collection&objectId=1399210&resolution=superImageResolution#2591468"
+      ],
+      "edmPreview": [
+        "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fwww.smb-digital.de%2FeMuseumPlus%3Fservice%3DImageAsset%26module%3Dcollection%26objectId%3D1399210%26resolution%3DsuperImageResolution%232591468&type=IMAGE"
+      ],
+      "edmTimespanLabel": [
+        {
+          "def": "2007"
+        }
+      ],
+      "edmTimespanLabelLangAware": {
+        "zxx": [
+          "2007"
+        ]
+      },
+      "europeanaCollectionName": [
+        "2064108_SMB"
+      ],
+      "europeanaCompleteness": 0,
+      "guid": "https://www.europeana.eu/item/2064108/Museu_ProvidedCHO_Museum_Europ_ischer_Kulturen__Staatliche_Museen_zu_Berlin_DE_MUS_018719_1399210?utm_source=api&utm_medium=api&utm_campaign=sholodfusate",
+      "id": "/2064108/Museu_ProvidedCHO_Museum_Europ_ischer_Kulturen__Staatliche_Museen_zu_Berlin_DE_MUS_018719_1399210",
+      "index": 0,
+      "language": [
+        "mul"
+      ],
+      "link": "https://api.europeana.eu/record/2064108/Museu_ProvidedCHO_Museum_Europ_ischer_Kulturen__Staatliche_Museen_zu_Berlin_DE_MUS_018719_1399210.json?wskey=sholodfusate",
+      "previewNoDistribute": false,
+      "provider": [
+        "MUSEU"
+      ],
+      "rights": [
+        "http://creativecommons.org/licenses/by-nc-sa/3.0/"
+      ],
+      "score": 193.0474,
+      "timestamp": 1688606192364,
+      "timestamp_created": "2020-08-24T09:45:34.253Z",
+      "timestamp_created_epoch": 1598262334253,
+      "timestamp_update": "2020-08-24T09:45:34.253Z",
+      "timestamp_update_epoch": 1598262334253,
+      "title": [
+        "Darth Vader"
+      ],
+      "type": "IMAGE",
+      "ugc": [
+        false
+      ],
+      "year": [
+        "2007"
+      ]
+    }
+  ]
+}
