@@ -1,7 +1,8 @@
 # API-Getting-Data Assignment
 
 ## Overview
-This is my first time using API to retrieve data from two different APIs. **Europeana API** is the required API, and the people API (https://swapi.dev/api/people/)from **Star Wars API (SWAPI)** is my chosen API. The goal is to query a specific Star Wars character and find related sports data from Europeana using the character's name. You will get combined data in a JSON file in the end. 
+This is my first time using API to retrieve data from two different APIs. **Europeana API** is the required API, and the 
+people API (https://swapi.dev/api/people/)from **Star Wars API (SWAPI)** is my chosen API. The goal is to query a specific Star Wars character and find related sports data from Europeana using the character's name. You will get combined data in a JSON file in the end. 
 
 ## Requirements
 - Python 3.x
